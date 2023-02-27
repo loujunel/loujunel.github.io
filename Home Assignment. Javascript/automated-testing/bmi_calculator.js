@@ -4,8 +4,8 @@ function calculateBMI (weight, height){
     return parseFloat(BMI);
 }
 
-calculateBMI(64,1.65) //correct (manual testing)
-calculateBMI(65,1.70) //correct (manual testing)
+calculateBMI(64,1.65) //correct
+calculateBMI(65,1.70) //correct
 
 module.exports = calculateBMI;
 
